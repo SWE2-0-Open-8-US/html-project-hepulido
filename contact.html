@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hector's Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<header>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"> Hector Pulido</label>
+        <ul>
+            <li>
+                <a class="active" href="/index.html">
+                    <h3>HOME</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/about.html">
+                    <h3>ABOUT</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/experience.html">
+                    <h3>EXPERIENCE</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/contact.html">
+                    <h3>CONTACT</h3>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <div class="site-container">
+
+            <div class="wrapper-contact">
+                <div class="email-number">
+                    <h3>Feel Free To Reach out.</h3>
+                    <h3>(702) 972-6556</h3>
+                    <h3>hpulido1021@gmail.com</h3>
+                </div>
+
+                <form id="form">
+                    <h2>CONTACT ME!</h2>
+                    <label for="name">Name:</label><br><br>
+                    <input class="input" type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+                    <label for="email">Email:</label><br><br>
+                    <input class="input" type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+                    <label for="message">Message:</label><br><br>
+                    <textarea class="input" id="message" name="message" placeholder="Your Message"
+                        required></textarea><br><br>
+
+                    <input class="button" type="submit" value="Submit" id="submit">
+                </form>
+
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

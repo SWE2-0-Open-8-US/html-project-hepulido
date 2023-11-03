@@ -1,76 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hector's Website</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="javascript.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    
-  </head>
-  <header>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<header>
     <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo"> Hector Pulido</label>
-      <ul>
-        <li>
-          <a class="active" href="/index.html"><h3>HOME</h3></a>
-        </li>
-        <li>
-          <a href="/about.html"><h3>ABOUT</h3> </a>
-        </li>
-        <li>
-          <a href="/portafolio.html"><h3>EXPERIENCE</h3> </a>
-        </li>
-        <li>
-          <a href="/contact.html"><h3>CONTACT</h3> </a>
-        </li>
-      </ul>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"> Hector Pulido</label>
+        <ul>
+            <li>
+                <a class="active" href="/index.html">
+                    <h3>HOME</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/about.html">
+                    <h3>ABOUT</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/experience.html">
+                    <h3>EXPERIENCE</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/contact.html">
+                    <h3>CONTACT</h3>
+                </a>
+            </li>
+        </ul>
     </nav>
-  </header>
-  <body>
+</header>
+
+<body id="home-body">
     <main class="main-content">
-      <div class="site-container">
-        <h2 class="content-title">HELLO WORLD!</h2>
-        <div class="content">
-          <div>
-          <p>
-            Hello, my name is Hector and I'm a passionate Jr software engineer.
-            With a background in computer science, I've developed a strong foundation in programming and an
-            aptitude for learning new technologies.
-          </p>
+        <div id="site-container-home">
+            <div class="content-home">
+                <div class="wrapper-contact-home">
+                    <div class="name-quote">
+                        <h1>Hector Pulido</h1>
+                        <h3>Jr Software Engineer</h3>
+                        <p id="quote">
+                            "The only way to do great work is to love what you do."<br> -Steve jobs
+                        </p>
+                    </div>
+                    <div class="contact-home">
+                        <p>
+                            Thank you for visiting my website, I am looking forward to connecting
+                            with you!
+                        </p>
+
+                        <div class="social-icons">
+                            <a href="/contact.html" class="btn">Contact me</a>
+                            <i class="fa fa-github" style="font-size:24px"></i>
+                            <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+                            <i class="fa fa-instagram" style="font-size:24px"></i>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img id="img-home" src="assets/IMG_2201.jpg" alt="hector's image" width="400px">
+                </div>
+            </div>
         </div>
-        <div>
-          <p>
-            On this website, you'll find a showcase of my experience
-            that demonstrate my skills in front-end.
-            Whether it's building a responsive web application with HTML, CSS,
-            and JavaScript or designing and deploying a server with Node.js and
-            a database like MongoDB, I'm always eager to take on new challenges.
-          </p>
-        </div>
-        <div>
-          <p>
-            In addition to my experience, you can also find links to my social
-            media and GitHub profiles. I believe in the power of community and
-            collaboration in software development, and I'm always looking to
-            connect with other developers and contribute to open-source
-            projects.
-          </p>
-        </div>
-        <div>
-          <p>
-            Thank you for visiting my website and I look forward to connecting
-            with you!
-          </p>
-        </div>
-        </div>
-      </div>
     </main>
-  </body>
+    <footer>
+        <p>&copy; Hector's Pulido website. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
 </html>
