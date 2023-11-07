@@ -333,7 +333,7 @@ hr {
 .input {
     border: solid 1px white;
     border-radius: 1%;
-    color: white;
+    color: rgb(17, 13, 13);
     background-color: azure;
     padding: 5% 5%;
 }
