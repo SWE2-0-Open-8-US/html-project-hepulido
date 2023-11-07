@@ -34,7 +34,7 @@ nav {
 }
 
 .nav-about {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(216, 227, 209);
     height: 80px;
     width: 100%;
     position: fixed;
@@ -417,6 +417,9 @@ footer p {
 }
 
 @media (max-width: 858px) {
+    .nav-about {
+        background-color: rgb(198, 237, 174);
+    }
     .checkbtn {
         display: block;
     }
